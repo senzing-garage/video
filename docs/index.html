@@ -64,13 +64,12 @@ min-width
 
     <section class="jumbotron text-center">
         <div class="container">
-            <h1>Senzing Certified</h1>
+            <h1>Senzing Videos</h1>
             <p class="lead text-muted">Welcome to the Senzing
-                Certified Gallery!</p>
-            <p class="lead text-muted">Senzing Certfied artifacts
-                accelerate integrating Senzing into your existing
-                infrastructure. They are rigorously tested, production
-                ready, and fully supported.</p>
+                Video Gallery!</p>
+            <p class="lead text-muted">Senzing videos are a curated
+                list of videos that accelerate evaluating and integrating
+                Senzing into your existing infrastructure.</p>
         </div>
     </section>
 
@@ -106,7 +105,7 @@ min-width
 
     <script>
     $(document).ready(function() {
-      $.getJSON("certification/data/certified-artifacts.json", function(data) {
+      $.getJSON("video/data/video.json", function(data) {
         certified = data.data.certified
         var rowElement = document.getElementById( "gallery" )
 
