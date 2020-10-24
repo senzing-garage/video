@@ -60,6 +60,13 @@ min-width
         </div>
     </header>
 
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="https://senzing.com">Senzing</a></li>
+        <li class="breadcrumb-item active" aria-current="page">video</li>
+      </ol>
+    </nav>
+
     <main role="main">
 
     <section class="jumbotron text-center">
@@ -144,14 +151,17 @@ min-width
             var url = videoValue.url != null ? videoValue.url : "#"
             var description = videoValue.description != null ? videoValue.description : ""
             var date = videoValue.date != null ? videoValue.date : ""
+            var length = videoValue.length != null ? videoValue.length : ""
 
             <!-- Construct HTML for video -->
 
             var olHtmlTemplate = `
               <div class="list-group-item list-group-item-action flex-column align-items-start">
-                <a href="` + url + `">` + title + `</a>
+                <a href="` + url + `" class="lead">` + title + `</a>
                 <span class="float-right">` + date + `</span>
-                <p class="text-muted">` + description + `</p>
+                <p class="text-muted">` + description + `
+                  <span class="float-right">Length: ` + length + `</span>
+                </p>
               </div>`
 
             <!-- Append Video HTML to Category -->
