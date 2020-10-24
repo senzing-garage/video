@@ -6,7 +6,7 @@
     content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="support@senzing.com">
-<title>Senzing Certified</title>
+<title>Senzing Video</title>
 <link rel="canonical" href="https://certified.senzing.com/">
 <link rel="icon" type="image/png" sizes="32x32"
     href="/images/favicon/favicon-32x32.png">
@@ -68,15 +68,13 @@ min-width
             <p class="lead text-muted">Welcome to the Senzing
                 Video Gallery!</p>
             <p class="lead text-muted">Senzing videos are a curated
-                list of videos that accelerate evaluating and integrating
-                Senzing into your existing infrastructure.</p>
+                list of videos that accelerate evaluating, integrating, and leveraging
+                Senzing in your existing infrastructure.</p>
         </div>
     </section>
 
-    <div class="album py-5 bg-light">
-        <div class="container">
-            <div id="gallery" class="row"></div>
-        </div>
+    <div class="container">
+        <div id="gallery" class="row"></div>
     </div>
 
     </main>
@@ -104,45 +102,63 @@ min-width
         crossorigin="anonymous"></script>
 
     <script>
+
     $(document).ready(function() {
-      $.getJSON("video/data/video.json", function(data) {
-        certified = data.data.certified
+      $.getJSON("data/video.json", function(data) {
+        categories = data.data.category
         var rowElement = document.getElementById( "gallery" )
 
-        $.each(certified, function(key, value) {
+        $.each(categories, function(categoryKey, categoryValue) {
 
           <!-- Pull values from JSON safely. -->
 
-          var thumbnail = value.thumbnail != null ? value.thumbnail : "https://certified.senzing.com/test-ground/img/thumbnail.png"
-          var title = value.title != null ? value.title : "Untitled"
-          var description = value.description != null ? value.description : "No description"
-          var view = value.view != null ? value.view : "https://certified.senzing.com/test-ground"
-          var certifiedCurrent = value.certifiedCurrent != null ? value.certifiedCurrent : "0.0.0"
+          var title = categoryValue.title != null ? categoryValue.title : "Untitled"
+          var subtitle = categoryValue.subtitle != null ? categoryValue.subtitle : "Untitled"
+          var videos = categoryValue.videos != null ? categoryValue.videos : {}
 
-          <!-- Construct HTML -->
+          <!-- Construct HTML for category -->
 
-          var htmlTemplate = `
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img src="` + thumbnail + `" alt="..." class="img-thumbnail">
-                <div class="card-body">
-                  <h5>` + title + `</h5>
-                  <p class="card-text">` + description + `</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <a href="` + view + `"
-                        class="btn btn-sm btn-outline-secondary" role="button"
-                        aria-disabled="true">View</a>
-                    </div>
-                    <small class="text-muted">Version `+ certifiedCurrent + `</small>
-                  </div>
-                </div>
-              </div>
+          var categoryHtmlTemplate = `
+            <div class="col-md-12 mt-4">
+              <a name="category-` + categoryKey + `">
+                  <h4>` + title + `</h4>
+              </a>
+              <p>` + subtitle + `</p>
+              <ul class="list-group">
+                <div id="category-` + categoryKey + `"></div>
+              </ul>
             </div>`
 
-          <!-- Append HTML to Gallery -->
+          <!-- Append Category HTML to Gallery -->
 
-          $(rowElement).append(htmlTemplate);
+          $(rowElement).append(categoryHtmlTemplate);
+
+          <!-- Append Videos to Category -->
+
+          var olElement = document.getElementById("category-" + categoryKey)
+          $.each(videos, function(videoKey, videoValue) {
+
+            <!-- Pull values from JSON safely. -->
+
+            var title = videoValue.title != null ? videoValue.title : "Untitled"
+            var url = videoValue.url != null ? videoValue.url : "#"
+            var description = videoValue.description != null ? videoValue.description : ""
+            var date = videoValue.date != null ? videoValue.date : ""
+
+            <!-- Construct HTML for video -->
+
+            var olHtmlTemplate = `
+              <div class="list-group-item list-group-item-action flex-column align-items-start">
+                <a href="` + url + `">` + title + `</a>
+                <span class="float-right">` + date + `</span>
+                <p class="text-muted">` + description + `</p>
+              </div>`
+
+            <!-- Append Video HTML to Category -->
+
+            $(olElement).append(olHtmlTemplate);
+
+          });
         });
       });
     });

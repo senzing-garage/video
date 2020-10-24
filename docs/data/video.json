@@ -1,0 +1,70 @@
+{
+    "data": {
+        "category": {
+            "overview": {
+                "title": "Overview",
+                "subtitle": "Introductory material",
+                "videos": {
+                    "abc": {
+                        "date": "October 2020",
+                        "description": "An overview of <a href=\"#\">xxx</a>",
+                        "title": "Demonstrate Senzing on AWS ECS Fargate",
+                        "url": "senzing-aws-ecs-fargate-aurora-serverless-load/index.html"
+                    },
+                    "xyz": {
+                        "description": "What's next, eh?",
+                        "title": "XYZ",
+                        "url": "somewhere-else"
+                    }
+                }
+            },
+            "overview2": {
+                "title": "Overview",
+                "subtitle": "Introductory material",
+                "videos": {
+                    "abc": {
+                        "description": "A brief...",
+                        "title": "ABC",
+                        "url": "senzing-aws-ecs-fargate-aurora-serverless-load/index.html"
+                    },
+                    "xyz": {
+                        "description": "What's next, eh?",
+                        "title": "XYZ",
+                        "url": "somewhere-else"
+                    }
+                }
+            },
+            "overview3": {
+                "title": "Deployment",
+                "subtitle": "Videos showing how to deploy Senzing on various platforms",
+                "videos": {
+                    "abc": {
+                        "date": "October 2020",
+                        "description": "An overview of <a href=\"https://github.com/Senzing/docker-compose-aws-ecscli-demo/blob/1.2.0/docs/advanced/README.md\">docker-compose-aws-ecscli-demo-advanced</a>",
+                        "title": "Demonstrate Senzing on AWS ECS Fargate",
+                        "url": "senzing-aws-ecs-fargate-aurora-serverless-load/index.html"
+                    },
+                    "xyz": {
+                        "description": "What's next, eh?",
+                        "title": "XYZ",
+                        "url": "somewhere-else"
+                    }
+                }
+            }
+        },
+        "updated": "2020-10-22T00:00:00Z"
+    },
+    "jsonapi": {
+        "version": "1.0"
+    },
+    "links": {
+        "self": "http://certified.senzing.com/video/data/video.json"
+    },
+    "meta": {
+        "httpMethod": "GET",
+        "httpStatusCode": 0,
+        "timestamp": "2020-10-22T00:00:00Z",
+        "version": "1.0.0",
+        "restApiVersion": "1.0.0"
+    }
+}
