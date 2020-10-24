@@ -76,7 +76,7 @@
                     "senzingAwsEcsFargateAuroraServerlessLoad": {
                         "date": "October 2020",
                         "description": "An overview of <a href=\"https://github.com/Senzing/docker-compose-aws-ecscli-demo/blob/1.2.0/docs/advanced/README.md\">docker-compose-aws-ecscli-demo-advanced</a>",
-                        "length": "16:55",
+                        "length": "16:54",
                         "title": "Demonstrate Senzing on AWS ECS Fargate",
                         "url": "senzing-aws-ecs-fargate-aurora-serverless-load/index.html"
                     }
