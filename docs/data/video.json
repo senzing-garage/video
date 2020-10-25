@@ -5,6 +5,13 @@
                 "title": "Overview",
                 "subtitle": "Introductory material",
                 "videos": {
+                    "aBakersDozenTopicsWithJeffJonas": {
+                        "date": "July 2019",
+                        "description": "Thirteen Entity Resolution topics explained by Jeff Jonas.",
+                        "length": "7:51",
+                        "title": "A Baker's Dozen Topics with Jeff Jonas",
+                        "url": "a-bakers-dozen-topics-with-jeff-jonas/index.html"
+                    },
                     "senzingAI": {
                         "date": "February 2019",
                         "description": "Jeff Jonas explains the Senzing AI.",
