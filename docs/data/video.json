@@ -12,6 +12,13 @@
                         "title": "A Baker's Dozen Topics with Jeff Jonas",
                         "url": "a-bakers-dozen-topics-with-jeff-jonas/index.html"
                     },
+                    "definingEntityResolution": {
+                        "date": "May 2019",
+                        "description": "Master the definition of entity resolution in common everyday terms.",
+                        "length": "2:38",
+                        "title": "Defining Entity Resolution",
+                        "url": "defining-entity-resolution/index.html"
+                    },
                     "senzingAI": {
                         "date": "February 2019",
                         "description": "Jeff Jonas explains the Senzing AI.",
