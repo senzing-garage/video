@@ -41,21 +41,35 @@
                 "videos": {
                     "senzingAdvancedMappingConcepts": {
                         "date": "September 2020",
-                        "description": "An overview of <a href=\"https://senzing.zendesk.com/hc/en-us/articles/360054097153-Advanced-mapping-concepts\">Advanced mapping concepts</a>",
-                        "length": "14:13",
+                        "description": "An overview of <a href=\"https://senzing.zendesk.com/hc/en-us/articles/360054097153-Advanced-mapping-concepts\">Advanced mapping concepts</a>.",
+                        "length": "14:14",
                         "title": "Senzing advanced mapping concepts",
                         "url": "senzing-advanced-mapping-concepts/index.html"
                     },
+                    "senzingExploratoryDataAnalysis": {
+                        "date": "August 2020",
+                        "description": "A tutorial of Exploratory Data Analysis tools.",
+                        "length": "17:17",
+                        "title": "Senzing Exploratory Data Analysis",
+                        "url": "senzing-exploratory-data-analysis/index.html"
+                    },
                     "senzingMappingPrimerShortDemo": {
                         "date": "July 2020",
-                        "description": "A quick introduction to mapping features",
+                        "description": "A quick introduction to mapping features.",
                         "length": "1:17",
                         "title": "Senzing Mapping Primer short demo",
                         "url": "senzing-mapping-primer-short-demo/index.html"
                     },
+                    "createAProjectInSenzingDesktop": {
+                        "date": "July 2020",
+                        "description": "A quick overview of how to create a new project in Senzing, map data, and review results.",
+                        "length": "6:55",
+                        "title": "Create a Project in Senzing Desktop",
+                        "url": "create-a-project-in-senzing-desktop/index.html"
+                    },
                     "exploringTheDemoProjectSenzingDesktop20Desktop": {
                         "date": "July 2020",
-                        "description": "A quick introduction to mapping features",
+                        "description": "A quick introduction to the Senzing desktop.",
                         "length": "3:26",
                         "title": "Exploring the Demo Project- Senzing Desktop 2.0 Desktop",
                         "url": "exploring-the-demo-project-senzing-desktop-2.0-desktop/index.html"
@@ -75,8 +89,8 @@
                 "videos": {
                     "senzingAwsEcsFargateAuroraServerlessLoad": {
                         "date": "October 2020",
-                        "description": "An overview of <a href=\"https://github.com/Senzing/docker-compose-aws-ecscli-demo/blob/1.2.0/docs/advanced/README.md\">docker-compose-aws-ecscli-demo-advanced</a>",
-                        "length": "16:54",
+                        "description": "An overview of <a href=\"https://github.com/Senzing/docker-compose-aws-ecscli-demo/blob/1.2.0/docs/advanced/README.md\">docker-compose-aws-ecscli-demo-advanced</a>.",
+                        "length": "16:55",
                         "title": "Demonstrate Senzing on AWS ECS Fargate",
                         "url": "senzing-aws-ecs-fargate-aurora-serverless-load/index.html"
                     }
