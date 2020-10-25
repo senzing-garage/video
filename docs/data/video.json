@@ -22,7 +22,7 @@
                     "realtimeAiForEntityResolution": {
                         "date": "November 2019",
                         "description": "Jeff Jonas' keynote at O'Reilly AI Conference in London, October 2019.",
-                        "length": "13:41",
+                        "length": "13:42",
                         "title": "Real-Time AI for Entity Resolution",
                         "url": "realtime-ai-for-entity-resolution/index.html"
                     },
@@ -56,7 +56,7 @@
                     "senzingMappingPrimerShortDemo": {
                         "date": "July 2020",
                         "description": "A quick introduction to mapping features.",
-                        "length": "1:17",
+                        "length": "1:18",
                         "title": "Senzing Mapping Primer short demo",
                         "url": "senzing-mapping-primer-short-demo/index.html"
                     },
