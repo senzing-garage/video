@@ -136,7 +136,7 @@
         "version": "1.0"
     },
     "links": {
-        "self": "http://certified.senzing.com/video/data/video.json"
+        "self": "http://hub.senzing.com/video/data/video.json"
     },
     "meta": {
         "httpMethod": "GET",
