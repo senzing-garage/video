@@ -127,6 +127,13 @@
                         "length": "4:09",
                         "title": "Senzing Demonstration at IBM Think 2018",
                         "url": "senzing-demonstration-ibm-think-2018/index.html"
+                    },
+                    "mappingAndLoading": {
+                        "date": "May 2017",
+                        "description": "Demonstration of mapping and loading data into Senzing.",
+                        "length": "7:23",
+                        "title": "Mapping and Loading",
+                        "url": "mapping-and-loading/index.html"
                     }
                 }
             },
