@@ -61,7 +61,7 @@ This demonstration shows...
 
 At [Senzing](http://senzing.com),
 we strive to create GitHub documentation in a
-"[don't make me think](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/dont-make-me-think.md)" style.
+"[don't make me think](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/dont-make-me-think.md)" style.
 For the most part, instructions are copy and paste.
 Whenever thinking is needed, it's marked with a "thinking" icon :thinking:.
 Whenever customization is needed, it's marked with a "pencil" icon :pencil2:.
@@ -88,7 +88,7 @@ describing where we can improve.   Now on with the show...
 - **Space:** This repository and demonstration require NN GB free disk space.
 - **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
 - **Background knowledge:** This repository assumes a working knowledge of:
-  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/XXX.md)
 
 #### Prerequisites for CLI
 
@@ -105,7 +105,7 @@ describing where we can improve.   Now on with the show...
 - **Space:** This repository and demonstration require NN GB free disk space.
 - **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
 - **Background knowledge:** This repository assumes a working knowledge of:
-  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/XXX.md)
 
 #### Prerequisites for Docker
 
@@ -128,7 +128,7 @@ describing where we can improve.   Now on with the show...
 - **Space:** This repository and demonstration require NN GB free disk space.
 - **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
 - **Background knowledge:** This repository assumes a working knowledge of:
-  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/XXX.md)
 
 #### Prerequisites for Kubernetes
 
@@ -139,7 +139,7 @@ describing where we can improve.   Now on with the show...
 - **Space:** This repository and demonstration require NN GB free disk space.
 - **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
 - **Background knowledge:** This repository assumes a working knowledge of:
-  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/XXX.md)
 
 #### Prerequisites for AWS ECS
 
@@ -150,7 +150,7 @@ describing where we can improve.   Now on with the show...
 - **Space:** This repository and demonstration require NN GB free disk space.
 - **Time:** Budget NN minutes to get the demonstration up-and-running, depending on CPU and network speeds.
 - **Background knowledge:** This repository assumes a working knowledge of:
-  - [XXX](https://github.com/Senzing/knowledge-base/blob/master/WHATIS/XXX.md)
+  - [XXX](https://github.com/Senzing/knowledge-base/blob/main/WHATIS/XXX.md)
 
 #### Prerequisites for OpenShift
 
