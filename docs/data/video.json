@@ -32,14 +32,14 @@
                 "title": "Concepts",
                 "subtitle": "Investigate concepts in Entity Resolution.",
                 "videos": {
-                    "foundatationsOfSenzingEntityResolution": {
+                    "foundationsOfSenzingEntityResolution": {
                         "date": "March 2021",
                         "description": "Learn the foundations of Senzing Entity Resolution.",
                         "length": "26:21",
                         "title": "Product Webinar Session 1: Entity Resolution Basics",
                         "url": "foundations-of-senzing-entity-resolution/index.html"
                     },
-                    "advancedEntityResolultionConcepts": {
+                    "advancedEntityResolutionConcepts": {
                         "date": "March 2021",
                         "description": "Covers Senzing's principal-based entity resolution and relationship linking at the level of features in data.",
                         "length": "28:52",
